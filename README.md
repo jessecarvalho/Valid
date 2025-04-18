@@ -10,7 +10,9 @@
 
 ## Teste Online
 
-Para facilitar os testes, a aplicação foi hospedada em:
+Para facilitar os testes, a aplicação foi hospedada em: 
+
+https://validtest-b6197070151d.herokuapp.com/docs/index.html
 
 ## Pré-requisitos
 - .NET 9.0 ou Docker
