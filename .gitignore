@@ -1,0 +1,52 @@
+## Diretórios de build/desenvolvimento
+bin/
+obj/
+.vs/
+.vscode/
+.idea/
+.settings/
+TestResults/
+publish/
+artifacts/
+
+## Arquivos de usuário
+*.user
+*.suo
+*.userprefs
+*.userosscache
+
+## Arquivos de ambiente
+.env
+*.env.local
+*.env.*.local
+secrets.dev.yaml
+values.dev.yaml
+
+## Dependências
+packages/
+[Nn]u[Gg]et/
+*.nupkg
+
+## Logs e diagnósticos
+*.log
+*.log.*
+*.tmp
+*.temp
+*.bak
+*.swp
+
+## Arquivos de projeto
+*.DotSettings
+*.dotCover
+*.pidb
+*.ncrunchsolution
+*.ncrunchproject
+
+## Ferramentas
+tools/
+*.psess
+*.vsp
+*.vspx
+
+## Licenças
+LICENSE
