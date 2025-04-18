@@ -12,13 +12,13 @@ namespace Application.Application.Services;
 public class ProfileUpdateService(IMediator mediator, ILogger<ProfileUpdateService> logger, IConfiguration configuration) : BackgroundService
 {
     private readonly Random _random = new();
-    private readonly int  _timeToUpdateProfilesInSeconds = configuration.GetValue<int>("TimeToUpdateProfilesInSeconds", 300);
+    private readonly int  _timeToUpdateProfilesInMinutes = configuration.GetValue<int>("TimeToUpdateProfilesInMinutes", 5);
 
     protected override async Task ExecuteAsync(CancellationToken cancellationToken)
     {
         while (!cancellationToken.IsCancellationRequested)
         {
-            var delay = TimeSpan.FromMinutes(_timeToUpdateProfilesInSeconds);
+            var delay = TimeSpan.FromMinutes(_timeToUpdateProfilesInMinutes);
             try
             {
                 logger.LogInformation("Iniciando atualização aleatória de parâmetros de perfis");
