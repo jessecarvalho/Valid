@@ -12,7 +12,7 @@
 
 Para facilitar os testes, a aplicação foi hospedada em: 
 
-https://validtest-b6197070151d.herokuapp.com/docs/index.html
+https://validtest-b6197070151d.herokuapp.com/docs/index.html (Aplicação desativada)
 
 ## Pré-requisitos
 - .NET 9.0 ou Docker
